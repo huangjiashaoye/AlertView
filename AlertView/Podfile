@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://git.coding.net/hging/Specs.git'
+
+#use_frameworks!
+
+target 'AlertView' do
+    
+  use_frameworks!
+
+
+pod 'IQKeyboardManager', '~> 4.0.8' 
+
+end
+
